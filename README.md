@@ -2,15 +2,8 @@
 
 This project is a supervised learning chatbot designed for a taxi service. The chatbot helps users to get information about the taxi service. It is trained using TensorFlow and can be customized to respond to different intents by modifying the **intents.json** file.    
 
-# How It Works
-1. **Input Training Data**  
-   	- Define all the questions and responses as done in the `intents.json`.
+# Getting Started
 
-2. **Model Training**  
-    - Run `model.py` to train the model on data in the `intents.json`.
-    - A new model will be trained and saved.
-
-## Getting Started
 ### **Backend Setup**
 1. Ensure following are installed.
    	- Node.js (for Angular):  [Download Node.js](https://nodejs.org/en)
