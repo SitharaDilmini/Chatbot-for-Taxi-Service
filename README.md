@@ -22,7 +22,7 @@ This project is a supervised learning chatbot designed for a taxi service. The c
 	`pip install -r requirements.txt`
 7. Train the model
 	`python model.py`
-8. Run the backend server
+8. Start the backend server
 	`python app.py`
 
 ### **Frontend Setup**
