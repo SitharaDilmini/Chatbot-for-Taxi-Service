@@ -1,0 +1,21 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+
+# Angular build files
+/frontend/chatbot-frontend/dist/
+node_modules/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Model files
+*.pkl
+*.keras
+
+# Environment variables
+.env

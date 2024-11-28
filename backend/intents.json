@@ -1,0 +1,415 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Greetings",
+          "Good day",
+          "What's up",
+          "Howdy",
+          "Yo",
+          "Hi there",
+          "Hello there",
+          "Hey there",
+          "Hi!",
+          "Hello!",
+          "Hey!"
+        ],
+        "responses": [
+          "Hello! How can I help you today?",
+          "Hi there! How can I assist you?",
+          "Hey! What can I do for you today?",
+          "Hello! I'm here to help. What do you need?",
+          "Hi! How can I assist you today?",
+          "Hi there! What do you need help with?",
+          "Hello! How can I assist you today?"
+        ]
+      },
+      {
+        "tag": "introdution",
+        "patterns": [
+          "Who are you?",
+          "What can you do?",
+          "What is your purpose?",
+          "What are you?",
+          "What do you do?",
+          "What is your role?",
+          "What is your function?",
+          "What is your job?",
+          "What is your mission?",
+          "What is your goal?"
+        ],
+        "responses": [
+            "I am a virtual assistant designed to provide information about the City Taxi (PVT) Ltd services. How can I assist you today?",
+            "I'm a virtual assistant here to help you with information about City Taxi (PVT) Ltd services. What do you need assistance with?",
+            "I'm a virtual assistant designed to provide information about City Taxi (PVT) Ltd services. How can I help you today?",
+            "I'm a virtual assistant here to help you with information about City Taxi (PVT) Ltd services. What do you need assistance with?",
+            "I'm a virtual assistant designed to provide information about City Taxi (PVT) Ltd services. How can I assist you today?"
+        ]
+      },
+      {
+        "tag": "booking_taxi",
+        "patterns": [
+            "How can I book a taxi?",
+            "How do I book a taxi?",
+            "How to book a taxi?",
+            "How can I reserve a taxi?",
+            "How do I reserve a taxi?",
+            "Book a taxi",
+            "Reserve a taxi",
+            "Taxi booking",
+            "Taxi reservation",
+            "How to reserve a taxi?"
+        ],
+        "responses": [
+            "To book a taxi, log in, enter your pick-up and drop-off locations, and select an available driver.",
+            "To reserve a taxi, log in, enter your pick-up and drop-off locations, and select an available driver.",
+            "To book a taxi, you need to log in, enter your pick-up and drop-off locations, and select an available driver.",
+            "To reserve a taxi, you need to log in, enter your pick-up and drop-off locations, and select an available driver.",
+            "To book a taxi, log in, enter your pick-up and drop-off locations, and select an available driver."
+        ]
+      },
+      {
+        "tag": "types_of_taxis",
+        "patterns": [
+            "What types of taxis are available?",
+            "Types of taxis",
+            "Different types of taxis",
+            "Kinds of taxis",
+            "Varieties of taxis",
+            "Types of vehicles",
+            "Different vehicles",
+            "Kinds of vehicles",
+            "Varieties of vehicles"
+        ],
+        "responses": [
+            "City Taxi offers a variety of vehicles suited for low to mid-income passengers. Available options include three-wheelers, mini cars, and compact sedans. These vehicles provide affordable and comfortable transportation tailored to meet your budget while ensuring a quality service.",
+            "At City Taxi, we provide three main types of vehicles: three-wheelers, mini cars, and compact sedans. These options are designed to offer a cost-effective and reliable transportation experience for all passengers.",
+            "Our fleet includes three-wheelers for short trips, mini cars for small groups or individual passengers, and compact sedans for a more comfortable yet affordable ride. Each option is aimed at offering budget-friendly and reliable transportation.",
+            "City Taxi offers a range of vehicles to cater to different passenger needs. Our fleet includes three-wheelers, mini cars, and compact sedans, providing passengers with affordable and comfortable transportation options.",
+            "We have three types of vehicles available: three-wheelers, mini cars, and compact sedans. These options are designed to offer passengers a cost-effective and reliable transportation experience.",
+            "City Taxi provides a variety of vehicles to suit different passenger needs. Our fleet includes three-wheelers, mini cars, and compact sedans, offering affordable and comfortable transportation options.",
+            "We offer three types of vehicles: three-wheelers, mini cars, and compact sedans. These options are designed to provide passengers with affordable and reliable transportation services."
+        ]
+      },
+      {
+        "tag": "driver_registration",
+        "patterns": [
+            "How can I register as a driver?",
+            "How do I register as a driver?",
+            "How to register as a driver?",
+            "Driver registration",
+            "Driver sign up",
+            "Driver registration process",
+            "Driver registration steps"
+        ],
+        "responses": [
+            "To register as a driver with City Taxi, simply visit our website and click on 'Driver Sign Up'. You will need to provide your personal details, upload the necessary documents, and submit your application. Once verified, you'll receive your login details via email.",
+            "Registering as a driver is easy! Just go to the 'Driver Sign Up' section on our website, fill in your details, upload the required documents, and submit your registration. After verification, you'll get an email with your login credentials.",
+            "You can register as a driver by going to our website and selecting 'Driver Sign Up'. Complete the form with your information, upload the required documents, and submit your application. We'll review your details and send your login information once everything is verified.",
+            "To register as a driver, visit our website and click on 'Driver Sign Up'. Fill in your details, upload the necessary documents, and submit your application. Once your information is verified, you'll receive your login details via email.",
+            "To sign up as a driver, visit our website and click on 'Driver Sign Up'. Fill in your details, upload the required documents, and submit your application. After verification, you'll receive your login details via email.",
+            "To register as a driver with City Taxi, visit our website and click on 'Driver Sign Up'. Fill in your details, upload the necessary documents, and submit your application. Once verified, you'll receive your login details via email."
+        ]
+      },
+      {
+        "tag": "driver_documents",
+        "patterns": [
+            "What are the driver registration requirements?",
+            "Driver registration documents",
+            "Driver registration checklist",
+            "Driver registration documents list",
+            "Driver registration requirements",
+            "Driver registration documents needed",
+            "Driver registration documents list"
+        ],
+        "responses": [
+            "To register as a driver, you need to provide a valid driver's license, a national ID or passport, proof of vehicle ownership, and vehicle insurance. All documents must be up-to-date and verified before your application can be approved.",
+            "Driver registration requires the following documents: a valid driver's license, a government-issued ID or passport, proof of vehicle ownership, and vehicle insurance. Please make sure that all documents are current before submitting your registration.",
+            "For driver registration, you'll need a valid driver's license, national ID or passport, proof of vehicle ownership, and vehicle insurance. Make sure all documents are up-to-date when applying.",
+            "To register as a driver, you must have a valid driver's license, a national ID or passport, proof of vehicle ownership, and vehicle insurance. Ensure that all documents are current and accurate before submitting your application.",
+            "Driver registration requires a valid driver's license, a national ID or passport, proof of vehicle ownership, and vehicle insurance. Please ensure that all documents are valid and up-to-date when submitting your application.",
+            "To register as a driver, you need to provide a valid driver's license, a national ID or passport, proof of vehicle ownership, and vehicle insurance. All documents must be up-to-date and verified before your application can be approved."
+        ]
+      },
+      {
+        "tag": "passenger_registration",
+        "patterns": [
+            "How can I register as a passenger?",
+            "How do I register as a passenger?",
+            "How to register as a passenger?",
+            "Passenger registration",
+            "Passenger sign up",
+            "Passenger registration process",
+            "Passenger registration steps"
+        ],
+        "responses": [
+            "To register as a passenger, click on 'Sign Up' on the homepage, fill in your details, and create an account.",
+            "To sign up as a passenger, click on 'Sign Up' on the homepage, fill in your details, and create an account.",
+            "To register as a passenger, you need to click on 'Sign Up' on the homepage, fill in your details, and create an account.",
+            "To sign up as a passenger, you need to click on 'Sign Up' on the homepage, fill in your details, and create an account."
+        ]
+      },
+      {
+        "tag": "payment",
+        "patterns": [
+            "How can I pay for the taxi?",
+            "How do I pay for the taxi?",
+            "How to pay for the taxi?",
+            "Payment methods",
+            "Payment options",
+            "Payment process",
+            "Payment details",
+            "Payment information"
+        ],
+        "responses": [
+            "The system automatically calculates your payment based on distance. You can pay using cash or credit card.",
+            "You can pay for the taxi using cash or credit card. The system automatically calculates the fare based on distance.",
+            "The payment for the taxi ride is calculated automatically based on distance. You can pay using cash or credit card.",
+            "You can pay for the taxi ride using cash or credit card. The fare is calculated automatically based on distance.",
+            "The system automatically calculates your fare based on distance. You can pay using cash or credit card."
+        ]
+      },
+      {
+        "tag": "driver_availability",
+        "patterns": [
+            "How do drivers show availability?",
+            "Are there any drivers available?",
+            "Driver availability near me",
+            "How can I know if a driver is available?",
+            "How to check driver availability"
+        ],
+        "responses": [
+            "Drivers can show their availability by setting the status to 'AVAILABLE'. If they pick up a ride, their status will automatically change to 'BUSY'. You can check for available drivers near you when booking a ride through the system.",
+            "Drivers indicate their availability by setting their status to 'AVAILABLE' in the system. When you book a taxi, the system will show the closest available drivers for you to choose from.",
+            "To check if a driver is available, simply start a booking in the website. The system will display the available drivers closest to your location.",
+            "Drivers set their status to 'AVAILABLE' when they are ready to take trips. When you request a taxi, the system will find available drivers near you and provide their details.",
+            "Driver availability is automatically updated in the system when they set their status to 'AVAILABLE'. You can see available drivers when booking your ride.",
+            "Drivers can show their availability by setting the status to 'AVAILABLE'. If they pick up a ride, their status will automatically change to 'BUSY'. You can check for available drivers near you when booking a ride through the system."
+        ]
+      },
+      {
+        "tag": "cancel_booking",
+        "patterns": [
+            "How can I cancel a booking?",
+            "How do I cancel a booking?",
+            "How to cancel a booking?",
+            "Cancel taxi booking",
+            "Cancel taxi reservation",
+            "Cancel ride",
+            "Cancel trip",
+            "Cancel taxi"
+        ],
+        "responses": [
+            "You can cancel your taxi booking from your account under 'My Bookings'. Please note that cancellation fees may apply.",
+            "To cancel your taxi booking, go to 'My Bookings' in your account and follow the cancellation process.",
+            "You can cancel your taxi booking from your account under 'My Bookings'. Please be aware that cancellation fees may apply.",
+            "To cancel your taxi booking, go to 'My Bookings' in your account and follow the cancellation process."
+        ]
+      },
+      {
+        "tag": "support_contact",
+        "patterns": [
+            "How can I contact support?",
+            "How do I get in touch with support?",
+            "How to reach customer service?",
+            "Support contact details",
+            "Customer service contact",
+            "Contact support team",
+            "Support helpline",
+            "Customer service hotline"
+        ],
+        "responses": [
+            "You can contact our support team by calling 011-1234567 or 011-7654321. We're here to assist you with any issues or questions.",
+            "To reach customer support, please call 011-1234567 or 011-7654321. Our team is available to help with any concerns you may have.",
+            "For assistance, you can contact our support helpline at 011-1234567 or 011-7654321. We're ready to provide help with any inquiries.",
+            "Need support? Call our customer service hotline at 011-1234567 or 011-7654321 for help with your issues or questions.",
+            "You can easily get in touch with our support team by calling 011-1234567 or 011-7654321. We're available to assist with any concerns."
+        ]
+      },
+      
+       {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Farewell",
+          "Take care",
+          "Have a nice day",
+          "Until next time",
+          "Adios",
+          "Catch you later",
+          "Later",
+          "See you soon",
+          "Have a great trip"
+        ],
+        "responses": [
+          "Goodbye! If you have more questions in the future, feel free to ask.",
+          "Bye! I'm here to help whenever you need assistance.",
+          "See you later! I'm here to support you with anything you need.",
+          "Take care! Let me know if you need further help.",
+          "Have a good day! I'm here to provide assistance whenever you need it."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Appreciate it",
+          "Thanks a lot",
+          "Thank you so much",
+          "Thank you very much",
+          "Thanks for your help",
+          "Thanks for assisting me",
+          "I appreciate your help",
+          "I'm grateful",
+          "Thanks for the support",
+          "Thanks for everything"
+        ],
+        "responses": [
+          "You're welcome! If you have more questions, feel free to ask.",
+          "You're welcome! I'm here to help whenever you need assistance.",
+          "You're welcome! I'm glad I could assist you.",
+          "You're welcome! Let me know if you need further help.",
+          "You're welcome! I'm here to provide assistance whenever you need it."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Help",
+          "Can you help me?",
+          "I need assistance",
+          "I have a question",
+          "Can you assist me?",
+          "I'm stuck",
+          "I need help with something",
+          "Can you guide me?",
+          "I'm confused",
+          "Can you provide support?"
+        ],
+        "responses": [
+          "Of course! I'm here to help. What do you need assistance with?",
+          "Absolutely! I'm here to assist you. What can I help you with today?",
+          "Sure thing! I'm here to help. What do you need assistance with?",
+          "No problem! I'm here to assist you. What can I help you with today?",
+          "I'd be happy to help! What do you need assistance with?",
+          "I'm here to help. What can I assist you with today?",
+          "I'm here to help. What do you need assistance with?"
+        ]
+      },
+      
+      {
+        "tag": "uncertain",
+        "patterns": [
+          "",
+          "I don't know",
+          "I'm not sure",
+          "Maybe",
+          "I'm uncertain",
+          "I'm confused",
+          "I'm lost",
+          "I'm stuck",
+          "I'm not certain",
+          "I'm clueless",
+          "I have no idea",
+          "I'm at a loss"
+        ],
+        "responses": [
+          "That's okay! If you have any other questions or need assistance, feel free to ask. Have a great day!",
+          "No problem! If you have more questions or need help with anything else, just let me know. Have a wonderful day!",
+          "It's alright! If you need further assistance or have other questions, feel free to ask. Have a fantastic day!",
+          "That's fine! If you have any other questions or need assistance, feel free to ask. Have a great day!",
+          "No worries! If you have more questions or need help with anything else, just let me know. Have a wonderful day!",
+          "It's okay! If you need further assistance or have other questions, feel free to ask. Have a fantastic day!"
+        ]
+      },
+      {
+        "tag": "positive_feedback",
+        "patterns": [
+          "Ok",
+          "Okay",
+          "great",
+          "Great job",
+          "Well done",
+          "Awesome",
+          "Excellent",
+          "Amazing",
+          "Impressive",
+          "Fantastic",
+          "Superb",
+          "Brilliant",
+          "Good work",
+          "You're the best",
+          "You're awesome",
+          "You're amazing",
+          "You're fantastic",
+          "You're great"
+        ],
+        "responses": [
+          "I'm happy to hear that you're satisfied with the service. Let me know if you need further assistance.",
+          "I'm pleased to hear that you're happy with the assistance. If you have more questions, feel free to ask.",
+          "I'm glad I could provide the information you needed. If you have any more questions, don't hesitate to ask.",
+          "I'm happy to hear that you're satisfied with the service. Let me know if you need further assistance."
+        ]
+      },
+      {
+        "tag": "negative_feedback",
+        "patterns": [
+          "No",
+          "Nope",
+          "No need",
+          "Not helpful",
+          "Didn't work",
+          "Disappointing",
+          "Unsatisfactory",
+          "Poor service",
+          "Bad experience",
+          "Frustrating",
+          "Terrible",
+          "Awful",
+          "Horrible",
+          "Worst",
+          "Not good",
+          "I'm not satisfied",
+          "I'm disappointed",
+          "I'm frustrated"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Please provide more details about what didn't work so I can improve and assist you better.",
+          "I apologize for the inconvenience. Could you describe the issue you encountered so I can address it and assist you effectively?",
+          "I'm here to help. To address the problem, please explain what didn't work so I can assist you and improve the experience."
+        ]
+      },
+      {
+        "tag": "unknown",
+        "patterns":[
+          "asdfgh",
+          "qwerty",
+          "zxcvbn",
+          "12345",
+          "abcdef",
+          "98765",
+          "00000",
+          "11111",
+          "22222",
+          "33333",
+          "44444"
+        ],
+        "responses":[
+          "I'm sorry, I didn't catch that. Could you please repeat or rephrase your request?",
+          "I'm sorry, I didn't understand that. Can you provide more details or rephrase your question?",
+          "I'm sorry, I'm not sure what you're asking. Could you please clarify or ask in a different way?",
+          "I'm sorry, I didn't get that. Can you repeat or rephrase your question for me?",
+          "I'm sorry, I didn't quite catch that. Could you please repeat or rephrase your request?",
+          "I'm sorry, I didn't understand that. Can you provide more details or ask in a different way?"
+        ]
+      }
+    ]
+  }
+  
